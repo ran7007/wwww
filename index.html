@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동물친구뽑기</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery.js"></script>
+    <script src="script/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+    <div class="ran">
+        <button class="tit" onclick="window.location.reload()">😍두근두근 로또 추첨😍</button>
+        <br>
+        <h3 id="ran">일근 &nbsp;두근 &nbsp;두근 &nbsp;세근 &nbsp;네근 &nbsp;다섯근</h3>
+        <br>
+    </div>
+    <div class="wrapper">
+        <div class="rollbutton buttonContainer is-hidden">
+            <input type="button" id="startButton" value="시작" onclick="start();" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" id="stopButton" value="중지" onclick="stop();" />
+        </div>
+    </div>
+
+</body>
+
+</html>
